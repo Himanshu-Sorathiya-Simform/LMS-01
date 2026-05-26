@@ -1,17 +1,7 @@
-import GitHub from "./components/GitHub.tsx";
-import Intro from "./components/Intro.tsx";
-import Name from "./components/Name.tsx";
+import AppLayout from "./components/AppLayout.tsx";
 
 function App() {
-	return (
-		<section>
-			<Name />
-
-			<Intro />
-
-			<GitHub />
-		</section>
-	);
+	return <AppLayout />;
 }
 
 export default App;
